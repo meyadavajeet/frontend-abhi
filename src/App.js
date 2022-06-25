@@ -17,9 +17,9 @@ const App = () => {
 			<div id="main-wrapper">
 				<div className="main-area-width">
 					<main className="main">
-						{/* <BrowserRouter> */}
+						<BrowserRouter>
 						{/* <MemoryRouter UNSAFE_allowNesting> */}
-						<MemoryRouter>
+						{/* <MemoryRouter> */}
 							<Main />
 							<Routes>
 								<Route path="/" exact element={<Banner />} />
@@ -29,8 +29,8 @@ const App = () => {
 								<Route path="/service" element={<Service />} />
 								<Route path="/contact" element={<Footer />} />
 							</Routes>
-						</MemoryRouter>
-						{/* </BrowserRouter> */}
+						{/* </MemoryRouter> */}
+						</BrowserRouter>
 					</main>
 				</div>
 			</div>

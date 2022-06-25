@@ -6,7 +6,7 @@ import About from './components/About';
 import Experiance from './components/Experiance';
 import Service from './components/Service';
 import Footer from './components/Footer';
-import { Routes, Route, MemoryRouter, } from "react-router-dom";
+import { Routes, Route, MemoryRouter, BrowserRouter, } from "react-router-dom";
 import Portifilo from './components/Portifilo';
 import Main from './components/Main';
 

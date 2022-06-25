@@ -1,4 +1,5 @@
 import React from 'react';
+import TypeAnimation from 'react-type-animation';
 const Portifilo = () => {
     return <>
         {/* <Main /> */}
@@ -24,7 +25,20 @@ const Portifilo = () => {
                     </div>
 
                 </div>
-                <center><h2 >Updated Soon....</h2></center>
+                {/* <center><h2 >Updated Soon....</h2></center> */}
+                <TypeAnimation
+                    cursor={true}
+                    sequence={[
+                        'This animation',
+                        2000,
+                        'Will write',
+                        2000,
+                        'A sequence three times.',
+                    ]}
+                    wrapper="a"
+                    repeat={3}
+                />
+
             </div>
         </section>
     </>;
